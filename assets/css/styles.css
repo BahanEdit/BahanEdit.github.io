@@ -24,20 +24,20 @@ header {
 }
 
 #home {
-    background-color: #f4f4f4;
+    background-color: #ffffff;
     padding: 4rem 1rem;
     text-align: center;
 }
 
 #home h1 {
     font-size: 3rem;
-    color: #333;
+    color: #ffffff;
     margin-bottom: 1rem;
 }
 
 #home p {
     font-size: 1.5rem;
-    color: #555;
+    color: #ffffff;
 }
 
 .logo, img{
@@ -46,9 +46,7 @@ header {
     border-radius: 50%; 
     height: 200px;
     width: 200px;
-    align-items: center;
-    justify-content: center;
-    margin-right: 5rem;
+
 }
 
 nav ul {
@@ -95,17 +93,37 @@ section {
     margin: 1em 0;
 }
 
-.project {
-    background: #fff;
-    padding: 1em;
-    margin: 1em 0;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+#portfolio {
+    padding: 50px 0;
+    text-align: center;
+}
+
+#portfolio .project {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 800px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: calc(33.333% - 40px); /* Adjusting the width to fit three items per row */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+}
+
+#portfolio .project img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+#contact {
+    padding: 50px 0;
+    text-align: center;
 }
 
 footer {
+    background-color: #333;
+    color: white;
     text-align: center;
-    padding: 1em 0;
-    background: #333;
-    color: #fff;
+    padding: 10px 0;
 }
